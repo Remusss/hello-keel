@@ -54,7 +54,7 @@ environments:
               spec:
                 containers:
                 - name: keeldemo
-                  image: my-docker-artifact
+                  image: keel-demo-app
                   ports:
                   - name: traffic-port
                     containerPort: 80
@@ -114,7 +114,7 @@ environments:
               spec:
                 containers:
                 - name: keeldemo-prod
-                  image: my-docker-artifact
+                  image: keel-demo-app
                   ports:
                   - name: traffic-port
                     containerPort: 80
