@@ -20,7 +20,7 @@ environments:
           apiVersion: v1
           kind: Service
           metadata:
-            name: keeldemo-dev
+            name: dev-keeldemo
             namespace: keel
           spec:
             ports:
