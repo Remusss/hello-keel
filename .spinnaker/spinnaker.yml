@@ -24,7 +24,7 @@ environments:
             namespace: keel
           spec:
             ports:
-            - port: 8080
+            - port: 9090
               protocol: TCP
               targetPort: 80
             type: ClusterIP
